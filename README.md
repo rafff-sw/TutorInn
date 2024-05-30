@@ -1,1 +1,3 @@
 # TutorInn
+
+For educational purposes
