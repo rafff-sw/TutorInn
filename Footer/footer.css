@@ -1,0 +1,211 @@
+.apply-for-tutor .footer {
+    position: absolute;
+    width: 300vw;
+    height: 12.5vw;
+    margin-top: 90vw;
+    left: -3.5vw;
+    background-color: #994c17;
+  }
+  
+  .apply-for-tutor .group {
+    position: absolute;
+    width: 1.5vw;
+    height: 1vw;
+    top: 3vw;
+    left: 3vw;
+    background-position: 50% 50%;
+  }
+  
+  .apply-for-tutor .text-wrapper-6 {
+    position: absolute;
+    top: 2.35vw;
+    left: 19.212vw;
+    font-family: "Kameron-Regular", Helvetica;
+    font-weight: 400;
+    color: #f1dec9;
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .apply-for-tutor .text-wrapper-7 {
+    position: absolute;
+    top: 2.35vw;
+    left: 43.5vw;
+    font-family: "Kameron-Regular", Helvetica;
+    font-weight: 400;
+    color: #f1dec9;
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .apply-for-tutor .text-wrapper-8 {
+    position: absolute;
+    top: 2.35vw;
+    left: 70.5vw;
+    font-family: "Kameron-Regular", Helvetica;
+    font-weight: 400;
+    color: #f1dec9;
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .apply-for-tutor .overlap {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 61.8vw;
+    background-color: #f1dec9;
+    border-radius: 32vw;
+  }
+  
+  .apply-for-tutor .image {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .apply-for-tutor .overlap-group {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 68.25vw;
+    background-color: #f1dec9;
+    border-radius: 32vw;
+  }
+  
+  .apply-for-tutor .img {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .apply-for-tutor .image-wrapper {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 74.5vw;
+    background-color: #f1dec9;
+    border-radius: 32vw;
+  }
+  
+  .apply-for-tutor .image-2 {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .apply-for-tutor .img-wrapper {
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 80.62vw;
+    border-radius: 32vw;
+    position: absolute;
+    background-color: #f1dec9;
+  }
+  
+  .apply-for-tutor .image-3 {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .apply-for-tutor .overlap-2 {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 86.6vw;
+    background-color: #f1dec9;
+    border-radius: 32vw;
+  }
+  
+  .apply-for-tutor .image-4 {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .apply-for-tutor .CP {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 18.7vw;
+    background-color: #f1dec9;
+    border-radius: 32vw;
+  }
+  
+  .apply-for-tutor .image-5 {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .apply-for-tutor .call {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 24.6vw;
+    background-color: #f1dec9;
+    border-radius: 32vw;
+  }
+  
+  .apply-for-tutor .image-6 {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .apply-for-tutor .location {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 5.125vw;
+    left: 44.8vw;
+    background-color: #f1dec9;
+    border-radius: 37.5px;
+  }
+  
+  .apply-for-tutor .image-7 {
+    width: 2vw;
+    height: 3vw;
+    top: 1vw;
+    left: 1.5vw;
+    position: absolute;
+    object-fit: cover;
+  }
