@@ -1,5 +1,5 @@
 # TutorInn
 
-For educational purposes
-Fonts used:
-Kameron - https://fonts.google.com/specimen/Kameron
+For educational purposes <br/>
+Fonts used: <br/>
+Kameron - https://fonts.google.com/specimen/Kameron <br/>
