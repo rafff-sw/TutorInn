@@ -23,10 +23,37 @@
                 <input type="text" id="search" name="search" class="searchBox">
                 <img src="Element/searchIcon.png" class="searchIcon">
             </div>
-            <div> <img src="Element/profile Icon.png" class="userProfile"></div>
+            <div> <img src="Element/profile Icon.png" class="userProfile" onclick="toogleMenu()"></div>
         </div>
     </div>
-    
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div class="dropMenu">
+            <div>
+                <div class="dropText"><p>View Account</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Chat</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Switch User</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Sign Out</p></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+    </script>
 
 </body>
 </html>
