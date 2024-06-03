@@ -144,5 +144,46 @@ html {
     transition: background-color 0.3s, color 0.3s;
 }
 
+.sub-menu-wrap{
+    position: absolute;
+    top: 21%;
+    right: 4%;
+    width: 17vw;
+    z-index: 100;
+    max-height: 0vw;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    border-radius: 0.5vw;
+}
+
+.dropMenu{
+    padding: 1vw;
+    width: 17vw;
+    background: #D9C4B0;
+}
+
+.dropText{
+    margin: 1vw 0.5vw 1vw 0.5vw;
+    text-align: center;
+    font-family: 'Kameron';
+    font-size: 1.5vw;
+}
+
+.dropText:hover{
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.lineD{
+    margin: 0vw 1vw 0vw 0vw;
+    height: 0.05vw;
+    width: 15vw;
+    background-color: #000000;
+}
+
+.sub-menu-wrap.open-menu{
+    max-height: 17vw;
+    border-radius: 0.5vw;
+}
 /* ------------------------------------------------------------------------------------------------------*/
 
