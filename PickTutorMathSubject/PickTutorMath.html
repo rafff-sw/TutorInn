@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="PickTutorMath.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="navigationBar">
+        <div> <img src="Element/EllipseHeader.png" class="circleBox"> </div>
+
+        <div class="headerBox"> 
+            <div> <img src="Element/Logo Navbar.png" class="logoBox"> </div>
+
+            <div class="HomeButton"><button class="Home">Home</button></div> 
+            <div class="line"></div>
+            <div class="Tutor"><p>Tutor</p></div>
+            <div class="line"></div>
+            <div class="Game"><p>Game</p></div>
+            <div class="search">
+                <input type="text" id="search" name="search" class="searchBox">
+                <img src="Element/searchIcon.png" class="searchIcon">
+            </div>
+            <div> <img src="Element/profile Icon.png" class="userProfile" onclick="toggleMenu()"></div>
+        </div>
+    </div>
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div class="dropMenu">
+            <div>
+                <div class="dropText"><p>View Account</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Chat</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Switch User</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Sign Out</p></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+    </script>
+    <!-- ----------------------------- -->
+
+    <div class="title"><p>Pick Your Tutor</p></div>
+    <div class="back"><img src="Element/PickTutorMath/Arrow.png" class="backButton"></div>
+    <div class="subject"><p>Mathematics</p></div>
+    <div class="row1">
+        <div class="br1">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name1">Mr. Nathan</p>
+        </div>
+        <div class="br2">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name2">Mr. Immanuel</p>
+        </div>
+        <div class="br3">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name3">Mr. Jiaw</p>
+        </div>
+        <div class="br4">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name4">Mr. Rafael</p>
+        </div>
+        <div class="br5">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name5">Mr. Sebastian</p>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="br6">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name6">Mr. Wibowo</p>
+        </div>
+        <div class="br7">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name7">Mr. Kevin</p>
+        </div>
+        <div class="br8">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name8">Mr. Tjahjadi</p>
+        </div>
+        <div class="br9">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name9">Mr. Alvino</p>
+        </div>
+        <div class="br10">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name10">Mr. Kannen</p>
+        </div>
+    </div>
+
+    <div class="row3">
+        <div class="br11">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name11">Mr. Vallian </p>
+        </div>
+        <div class="br12">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name12">Mr. Radesta</p>
+        </div>
+        <div class="br13">
+            <img src="Element/PickTutorMath/icon.png" class="tutorIcon">
+            <p class="name13">Mr. Arya</p>
+        </div>
+        </div>
+    </div>
+
+    <!-- ------------------------- -->
+
+    <div class="footer">
+        <div class="footerLogo"><img src="Footer Elements/TutorInnFooter.png" class="TutorInnLogo" /></div>
+        
+        <div class="contactUs">
+            <p class="contactText">Contact Us</p>
+            <div class="contactIcon">
+                <img src="Footer Elements/CP.png" class="CPImg">
+                <img src="Footer Elements/Call.png" class="callImg">
+            </div>
+        </div>
+
+        <div class="location">
+            <p class="locationText">Location</p>
+            <img src="Footer Elements/location.png" class="locationIcon">
+        </div>
+
+        <div class="socialMedia">
+            <p class="socmedText">Social Media</p>
+            <div class="socialMediaIcon">
+                <img src="Footer Elements/insta.png" class="insta">
+                <img src="Footer Elements/facebook.png" class="facebook">
+                <img src="Footer Elements/youtube.png" class="youtube">
+                <img src="Footer Elements/whatsapp.png" class="whatsapp">  
+                <img src="Footer Elements/tiktok.png" class="tiktok">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
