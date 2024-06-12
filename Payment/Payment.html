@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body>
+        <!-- HEADER -->
+        <div class="navigationBar">
+            <div> <img src="Element/EllipseHeader.png" class="circleBox"> </div>
+    
+            <div class="headerBox"> 
+                <div> <img src="Element/Logo Navbar.png" class="logoBox"> </div>
+    
+                <div class="HomeButton"><button class="Home">Home</button></div> 
+                <div class="line"></div>
+                <div class="Tutor"><p>Tutor</p></div>
+                <div class="line"></div>
+                <div class="Game"><p>Game</p></div>
+                <div class="search">
+                    <input type="text" id="search" name="search" class="searchBox">
+                    <img src="Element/searchIcon.png" class="searchIcon">
+                </div>
+                <div> <img src="Element/profile Icon.png" class="userProfile" onclick="toggleMenu()"></div>
+            </div>
+        </div>
+        <div class="sub-menu-wrap" id="subMenu">
+        <div class="dropMenu">
+            <div>
+                <div class="dropText"><p>View Account</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Chat</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Switch User</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Sign Out</p></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+    </script>
+        <!-- -------------------------- -->
+
+        <div class="paymentTitle"><p>Payment</p></div>
+
+        <img src="Element/Payment/Arrow.png" class="backButton">
+        <div class="paymentBox">
+            <p class="paymentDetails">Payment Details</p>
+            <p class="tutorName">Tutor Name:</p>
+            <p class="totalSession">Total Session:</p>
+            <p class="fare">Fare: 150.0000 / Session</p>
+            <p class="totalPrice">Total Price: Rp 300.000,00</p>
+            <p class="paymentMethod">Payment Method</p>
+
+            <div class="paymentOption">
+                <input type="radio" id="option1" name="option" class="circle1"></input>
+                <label for="option1" class="option1">BCA Mobile</label>
+
+                <input type="radio" id="option2"name="option" class="circle2"></input>
+                <label for="option2" class="option2">Go-Pay</label>
+
+                <input type="radio" id="option3" name="option" class="circle3"></input>
+                <label for="option3" class="option3">OVO</label>
+                
+                <input type="radio" id="option4" name="option"class="circle4"></input>
+                <label for="option4" class="option4">DANA</label>
+
+                <input type="radio" id="option5" name="option" class="circle5"></input>
+                <label for="option5" class="option5">Shopee Pay</label>
+        </div>
+
+        <div class="confirmButton">
+            <p class="confirmText">Confirm</p>
+        </div>
+
+        <p>--------------</p>
+</body>
+</html>
