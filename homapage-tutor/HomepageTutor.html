@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="HomepageTutor.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="navigationBar">
+        <div> <img src="Element/EllipseHeader.png" class="circleBox"> </div>
+
+        <div class="headerBox"> 
+            <div> <img src="Element/Logo Navbar.png" class="logoBox"> </div>
+
+            <div class="HomeButton"><button class="Home">Home</button></div> 
+            <div class="line"></div>
+            <div class="Tutor"><p>Tutor</p></div>
+            <div class="line"></div>
+            <div class="Game"><p>Game</p></div>
+            <div class="search">
+                <input type="text" id="search" name="search" class="searchBox">
+                <img src="Element/searchIcon.png" class="searchIcon">
+            </div>
+            <div> <img src="Element/profile Icon.png" class="userProfile" onclick="toggleMenu()"></div>
+        </div>
+    </div>
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div class="dropMenu">
+            <div>
+                <div class="dropText"><p>View Account</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Chat</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Switch User</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Sign Out</p></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+    </script>
+    
+    <div class="carouselBox">
+        <img src="Element/Homepage/arrow - left.png" class="leftAds" onclick="">
+        <div><img src="Element/Homepage/ads.png" class="ads"></div>
+        <img src="Element/Homepage/arrow - right.png" class="rightAds" onclick="">
+    </div>
+    <!-- ---- -->
+
+    <div class="upcomingText"><p>Upcoming Schedule</p></div>
+    <div class="upcomingBox"></div>
+    
+    <!-- ---- -->
+    <div class="testimonies"><p>Testimonies</p></div>
+    <div class="testiBox">
+
+        <img src="Element/Homepage/arrow - left.png" class="leftTesti" onclick="prev()">
+
+        <div class="slider">
+            <div class="img-box">
+                <img src="Element/Homepage/Testi/testi1.png" class="slider-img">
+            </div>
+        </div>
+
+        <img src="Element/Homepage/arrow - right.png" class="rightTesti" onclick="next()">
+    </div>
+
+    <script src="Homepage.js"></script>
+
+    <!-- -------------------- FOOTER --------------------- -->
+    <div class="footer">
+        <div class="footerLogo"><img src="Footer Elements/TutorInnFooter.png" class="TutorInnLogo" /></div>
+        
+        <div class="contactUs">
+            <p class="contactText">Contact Us</p>
+            <div class="contactIcon">
+                <img src="Footer Elements/CP.png" class="CPImg">
+                <img src="Footer Elements/Call.png" class="callImg">
+            </div>
+        </div>
+
+        <div class="location">
+            <p class="locationText">Location</p>
+            <img src="Footer Elements/location.png" class="locationIcon">
+        </div>
+
+        <div class="socialMedia">
+            <p class="socmedText">Social Media</p>
+            <div class="socialMediaIcon">
+                <img src="Footer Elements/insta.png" class="insta">
+                <img src="Footer Elements/facebook.png" class="facebook">
+                <img src="Footer Elements/youtube.png" class="youtube">
+                <img src="Footer Elements/whatsapp.png" class="whatsapp">  
+                <img src="Footer Elements/tiktok.png" class="tiktok">
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------- -->
+
+</body>
+</html>
