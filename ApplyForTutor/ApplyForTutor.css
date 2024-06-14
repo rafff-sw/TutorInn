@@ -173,11 +173,12 @@ html {
 }
 
 .backImg{
-    height: 4vw;
+    display: flex;
 }
 
 .backButton{
     margin: 0vw 1vw 1vw 7.5vw;
+    height: 4vw;
 }
 
 .backButton:hover{
