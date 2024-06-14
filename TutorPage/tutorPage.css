@@ -22,7 +22,7 @@ html {
   }
 
 
-.headerBox{
+  .headerBox{
     background-color:#e5cfbc;
     height: 5.5vw;
     width: 88vw;
@@ -164,6 +164,7 @@ html {
     height: 4vw;
     width: 4vw;
     margin: 7vw 5vw 1vw 8vw;
+    display: flex;
 }
 
 .backButton:hover{
@@ -194,11 +195,11 @@ html {
     margin: 2vw 2.5vw 2vw 3.5vw;
 }
 
-.Rating{
+/* .Rating{
     font-size: 2vw;
     text-align: center;
     font-family: 'Kameron';
-}
+} */
 
 .tutorDesc{
     margin: 5vw 1vw 1vw 1vw;
