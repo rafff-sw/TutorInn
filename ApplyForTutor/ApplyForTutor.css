@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css?family=Kameron");
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #FFFBE9;
+  }
+
+
+
+/* ------------------------------------------- Navigation Bar -------------------------------------------*/
+
+.headerBox{
+    background-color:#e5cfbc;
+    height: 5.5vw;
+    width: 88vw;
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+    border-radius: 0.6vw;
+    margin: 1.25%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 4.5%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.circleBox{
+    margin: 1.25%;
+    height: 14vw;
+    width: 14vw;
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+    z-index: -1;
+    top: -0.75vw;
+    left: 4%;
+    position: absolute;
+}
+
+.iconLogo{
+    height: 5vw;
+}
+
+.logoBox{
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+    width:13vw;
+    height: 5vw;
+    top: 0.5vw;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-right: 2%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+}
+
+.Home{
+    font-family: 'Kameron';
+    font-size: 2.35vw;
+    margin: 0vw 0vw 0vw 10vw;
+    /* margin: 0vw 0vw 0vw 0.55vw; */
+    padding: 1.4vw 3.5vw 1.3vw 3.2vw;
+    border: none;
+    background-color: #e5cfbc;
+}
+
+.Tutor{
+    font-family: 'Kameron';
+    font-size: 2.35vw;
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 1.4vw 4vw 1.3vw 4vw;
+}
+
+.schedule{
+    font-family: 'Kameron';
+    font-size: 2.35vw;
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 1.4vw 2.5vw 1.3vw 3vw;
+}
+
+.Home:hover, .Tutor:hover, .schedule:hover{
+    box-shadow: inset 0 0 0.2vw rgba(153, 76, 23, 0.5), 0 0.1vw 0.5vw rgba(153, 76, 23, 0.5);
+    background-color:rgba(153, 76, 23, 0.5);
+    display: absolute;
+    align-items: center;    
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.line{
+    width: 0.15vw; 
+    height: 3.5vw; 
+    background: #AD8B73;
+    margin: 1vw 0vw 1vw 0vw;
+}
+
+.userProfile{
+    height: 3.5vw;
+    width: 3.5vw;
+    margin: 1vw 1vw 1vw 16vw;
+    display: flex;
+}
+
+.userProfile:hover{
+    opacity: 0.5;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 21%;
+    right: 4%;
+    width: 17vw;
+    z-index: 100;
+    max-height: 0vw;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    border-radius: 0.5vw;
+}
+
+.dropMenu{
+    padding: 1vw;
+    width: 17vw;
+    background: #D9C4B0;
+}
+
+.dropText{
+    margin: 1vw 0.5vw 1vw 0.5vw;
+    text-align: center;
+    font-family: 'Kameron';
+    font-size: 1.5vw;
+}
+
+.dropText:hover{
+    text-decoration: underline;
+    transition: 3s;
+}
+
+.lineD{
+    margin: 0vw 1vw 0vw 0vw;
+    height: 0.05vw;
+    width: 15vw;
+    background-color: #000000;
+}
+
+.sub-menu-wrap.open-menu{
+    max-height: 17vw;
+    border-radius: 0.5vw;
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+
+.title{
+    margin: 4.5vw 0vw 1vw 0vw;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Kameron';
+}
+
+.backImg{
+    height: 4vw;
+}
+
+.backButton{
+    margin: 0vw 1vw 1vw 7.5vw;
+}
+
+.backButton:hover{
+    opacity: 0.7;
+    transition: 0.3ms;
+}
+
+.pickSubject{
+    margin: 2.5vw 1vw 1vw 7.5vw;
+    font-size: 2.75vw;
+    font-weight: 700;
+    font-family: 'Kameron';
+}
+
+.subjectRow1, .subjectRow2{
+    display: flex;
+    flex-direction: row;
+}
+
+.subjectMath{
+    text-align: center;
+    padding-top: 1.25vw;
+    margin: 1vw 2vw 1vw 9.75vw;
+    height: 5vw;
+    width: 24vw;
+    border-radius: 4vw;
+    background-color: #F1DEC9;
+    font-size: 2vw;
+    font-family: 'Kameron';
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+}
+
+.subjectPhysics, .subjectBiology{
+    text-align: center;
+    padding-top: 1.25vw;
+    margin: 1vw 2vw 1vw 2vw;
+    height: 5vw;
+    width: 24vw;
+    border-radius: 4vw;
+    background-color: #F1DEC9;
+    font-size: 2vw;
+    font-family: 'Kameron';
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+}
+
+.subjectChemistry{
+    text-align: center;
+    padding-top: 1.25vw;
+    margin: 1vw 2vw 1vw 23.5vw;
+    height: 5vw;
+    width: 24vw;
+    border-radius: 4vw;
+    background-color: #F1DEC9;
+    font-size: 2vw;
+    font-family: 'Kameron';
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+}
+
+.subjectEnglish{
+    text-align: center;
+    padding-top: 1.25vw;
+    margin: 1vw 2vw 1vw 2vw;
+    height: 5vw;
+    width: 24vw;
+    border-radius: 4vw;
+    background-color: #F1DEC9;
+    font-size: 2vw;
+    font-family: 'Kameron';
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+}
+
+.subjectBiology:hover, .subjectChemistry:hover, .subjectEnglish:hover, .subjectPhysics:hover, .subjectMath:hover, .takeTestBox:hover{
+    background-color: #E2CEB8;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.cv {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 4vw 1vw 1vw 7.5vw;
+}
+
+.resumeText {
+    font-family: 'Kameron';
+    font-size: 2.5vw;
+    margin-right: 2vw;
+}
+
+.customButton {
+    position: relative;
+    display: inline-block;
+    margin: 0vw 1vw 2vw 6vw;
+}
+
+.customButton input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.customButton::before {
+    content: 'Choose File';
+    display: inline-block;
+    height: 3vw;
+    width: 17vw;
+    padding-top: 1.25vw;
+    background-color: #C9E7F1;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4vw;
+    font-family: 'Kameron';
+    font-weight: 500;
+    filter: drop-shadow(0vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+    font-size: 1.5vw;
+    transition: background-color 0.3s, color 0.3s;
+    z-index: 0;
+    position: relative;
+    font-size: 1.75vw;
+}
+
+.customButton:hover::before {
+    background-color: #0056b3;
+    color: white;
+}
+
+.customButton:active::before {
+    background-color: #003d80;
+}
+
+.takeTestBox{
+    text-align: center;
+    padding-top: 1.25vw;
+    margin: 1vw 2vw 10vw 75vw;
+    height: 5vw;
+    width: 20vw;
+    border-radius: 4vw;
+    background-color: #F1DEC9;
+    font-size: 2vw;
+    font-family: 'Kameron';
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+}
+
+/* ----------------------------- */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color:#994c17;
+    height: 15vw;
+    width: 100vw;
+}
+
+.footerLogo{
+    margin: 3.5vw 3.5vw 3.5vw 3.5vw;
+    display: flex;
+}
+
+.TutorInnLogo{
+    height: 8vw;
+}
+
+.contactUs{
+    margin: 3vw 11vw 2vw 4vw;
+}
+
+.contactText, .locationText, .socmedText{
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Kameron';
+}
+
+.contactIcon{
+    display: flex;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+
+.CPImg, .callImg{
+    margin: 1vw 0.5vw 1vw 0.5vw;
+    height: 4.5vw;
+}
+
+.CPImg:hover, .callImg:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.location{
+    margin: 3vw 1vw 1vw 1vw;
+}
+.locationIcon{
+    margin: 1vw 0.5vw 1vw 1.6vw;
+    height: 4.5vw;
+    width: 4.5vw;
+}
+.locationIcon:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.socialMedia{
+    margin: 3vw 1vw 1vw 11vw;
+}
+
+.socialMediaIcon{
+    display: flex;
+}
+
+.insta, .facebook, .youtube, .whatsapp, .tiktok{
+    margin: 1vw 0.25vw 1vw 0.25vw;
+    height: 4.5vw;
+}
+
+.insta:hover, .facebook:hover, .youtube:hover, .whatsapp:hover, .tiktok:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}

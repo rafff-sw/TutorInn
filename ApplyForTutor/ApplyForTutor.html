@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="ApplyForTutor.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="navigationBar">
+        <div> <img src="Element/EllipseHeader.png" class="circleBox"> </div>
+
+        <div class="headerBox"> 
+            <div class="logoBox"> <img src="Element/Logo Navbar.png" class="iconLogo"> </div>
+
+            <div class="Home">Home</div> 
+            <div class="line"></div>
+            <div class="Tutor"><p>Tutor</p></div>
+            <div class="line"></div>
+            <div class="schedule"><p>Schedule</p></div>
+            <div> <img src="Element/profile Icon.png" class="userProfile" onclick="toggleMenu()"></div>
+        </div>
+    </div>
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div class="dropMenu">
+            <div>
+                <div class="dropText"><p>View Account</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Switch User</p></div>
+                <div class="lineD"></div>
+            </div>
+            <div>
+                <div class="dropText"><p>Sign Out</p></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+    </script>
+    <!-- -------------------- -->
+
+    <div class="title"> <p>Apply for Tutor</p></div>
+    <div class="backButton"><img src="Element/ApplyForTutor/Arrow.png" class="backImg"></div>
+    <div class="pickSubject"><p>Pick Your Subject</p></div>
+
+    <div class="subjectRow1">
+        <div class="subjectMath">Mathematics</div>
+        <div class="subjectPhysics">Physics</div>
+        <div class="subjectBiology">Biology</div>
+    </div>
+
+    <div class="subjectRow2">
+        <div class="subjectChemistry">Chemistry</div>
+        <div class="subjectEnglish">English</div>
+    </div>
+
+    <div class="cv">
+        <p class="resumeText">Resume</p>
+    </div>
+    <div class="customButton">
+        <input type="file" name="cv" id="cv" />
+    </div>
+
+    <div class="takeTestBox">Take Test</div>
+
+    <!-- ---------------- -->
+
+    <div class="footer">
+        <div class="footerLogo"><img src="Footer Elements/TutorInnFooter.png" class="TutorInnLogo" /></div>
+        
+        <div class="contactUs">
+            <p class="contactText">Contact Us</p>
+            <div class="contactIcon">
+                <img src="Footer Elements/CP.png" class="CPImg">
+                <img src="Footer Elements/Call.png" class="callImg">
+            </div>
+        </div>
+
+        <div class="location">
+            <p class="locationText">Location</p>
+            <img src="Footer Elements/location.png" class="locationIcon">
+        </div>
+
+        <div class="socialMedia">
+            <p class="socmedText">Social Media</p>
+            <div class="socialMediaIcon">
+                <img src="Footer Elements/insta.png" class="insta">
+                <img src="Footer Elements/facebook.png" class="facebook">
+                <img src="Footer Elements/youtube.png" class="youtube">
+                <img src="Footer Elements/whatsapp.png" class="whatsapp">  
+                <img src="Footer Elements/tiktok.png" class="tiktok">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
