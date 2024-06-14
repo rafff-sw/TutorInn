@@ -185,6 +185,7 @@ html {
 
 .backButton{
     height: 4vw;
+    display: flex;
 }
 
 .subject{
@@ -233,6 +234,7 @@ html {
 .tutorIcon{
     margin: 2vw 3.75vw 1vw 3.75vw;
     height: 8.25vw;
+    display: flex;
 }
 
 .name1, .name2, .name3, .name4, .name5, .name6, .name7, .name8, .name9, .name10, .name11, .name12, .name13{
