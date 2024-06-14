@@ -206,8 +206,81 @@ html {
     height:45vw;
     width: 89vw;
     filter:drop-shadow(0.5vw 0.5vw 0.5vw rgba(0,0,0,0.25));
-    border-radius:9px;
+    border-radius:1vw;
 }
+
+.scheduleBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.app1{
+    margin: 5vw 5vw 1.75vw 5vw;
+    height: 7vw;
+    width: 78vw;
+    background-color: #994C17;
+    border-radius: 1.25vw;
+}
+
+.app2, .app3{
+    margin: 1.75vw 5vw 1.75vw 5vw;
+    height: 7vw;
+    width: 78vw;
+    background-color: #994C17;
+    border-radius: 1.25vw;
+}
+
+.moreOption{
+    font-size: 2.5vw;
+    margin: 4vw 6.5vw 2vw 74.5vw;
+    font-family: 'Kameron';
+}
+
+.moreOption:hover{
+    text-decoration: underline;
+    transition: 0.5;
+}
+
+.desc1, .desc2, .desc3{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Kameron';
+    font-size: 2.25vw;
+}
+
+.subject{
+    margin: 2vw 2vw 1vw 4vw;
+}
+
+.date{
+    font-size: 1.75vw;
+    width: 20w;
+    margin: 2.3vw 3vw 1vw 1vw;
+}
+
+.lineS{
+    margin: 1.5vw 1vw 1vw 0vw;
+    background-color: white;
+    height: 4vw;
+    width: 0.15vw;
+}
+
+.time{
+    width: 15vw;
+    margin: 2vw 10vw 1vw 1vw;
+}
+
+.names{
+    width: 15vw;
+    margin: 2vw 0vw 1vw 5vw;
+}
+
+.app1:hover, .app2:hover, .app3:hover{
+    opacity: 0.85;
+    transition: 0.3;
+}
+
 
 /* ------------------------ */
 .testimonies{
