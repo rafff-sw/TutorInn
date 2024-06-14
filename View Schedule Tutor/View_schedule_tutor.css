@@ -29,8 +29,8 @@ html {
     background-color:#e5cfbc;
     height: 5.5vw;
     width: 88vw;
-    filter:drop-shadow(1px 9px 4px rgba(0,0,0,0.23000000417232513));
-    border-radius:19px;
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
+    border-radius: 0.6vw;
     margin: 1.25%;
     margin-left: 7%;
     margin-right: 7%;
@@ -43,17 +43,21 @@ html {
 
 .circleBox{
     margin: 1.25%;
-    height: 15vw;
-    width: 15vw;
-    filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    height: 14vw;
+    width: 14vw;
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
     z-index: -1;
     top: -0.75vw;
     left: 4%;
     position: absolute;
 }
 
+.iconLogo{
+    height: 5vw;
+}
+
 .logoBox{
-    filter:drop-shadow(0px 7px 8px rgba(0,0,0,0.25));
+    filter:drop-shadow(0.5vw 0.5vw 0.3vw rgba(0,0,0,0.25));
     width:13vw;
     height: 5vw;
     top: 0.5vw;
@@ -62,12 +66,14 @@ html {
     margin-right: 2%;
     position: relative;
     z-index: 3;
+    display: flex;
 }
 
 .Home{
     font-family: 'Kameron';
     font-size: 2.35vw;
-    margin: 0vw 0vw 0vw 0.55vw;
+    margin: 0vw 0vw 0vw 10vw;
+    /* margin: 0vw 0vw 0vw 0.55vw; */
     padding: 1.4vw 3.5vw 1.3vw 3.2vw;
     border: none;
     background-color: #e5cfbc;
@@ -80,14 +86,14 @@ html {
     padding: 1.4vw 4vw 1.3vw 4vw;
 }
 
-.Game{
+.schedule{
     font-family: 'Kameron';
     font-size: 2.35vw;
-    margin: 0vw 1vw 0vw 0vw;
-    padding: 1.4vw 3.5vw 1.3vw 3.5vw;
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 1.4vw 2.5vw 1.3vw 3vw;
 }
 
-.Home:hover, .Tutor:hover, .Game:hover{
+.Home:hover, .Tutor:hover, .schedule:hover{
     box-shadow: inset 0 0 0.2vw rgba(153, 76, 23, 0.5), 0 0.1vw 0.5vw rgba(153, 76, 23, 0.5);
     background-color:rgba(153, 76, 23, 0.5);
     display: absolute;
@@ -102,41 +108,11 @@ html {
     margin: 1vw 0vw 1vw 0vw;
 }
 
-.search{
-    display: flex;
-    flex-direction: row;
-    margin-right: 1%;
-}
-
-.searchBox{
-    background-color:#ffffff;
-    height: 3.25vw;
-    width: 23vw;
-    border-radius:100px;
-    margin: 1.1vw 1vw 1vw 3vw;
-    border: none;
-    padding: 1.25vw 3.5vw 1.25vw 1.5vw;
-    font-size: 1.25vw;
-    font-family: 'Kameron';
-}
-
-.searchIcon{
-    background-color: #FFFFFF;
-    height: 1.65vw;
-    width: 1.65vw;
-    margin-left: -3.75vw;
-    margin-top: 1.9vw;
-}
-
-.searchIcon:hover{
-    opacity: 0.5;
-    transition: background-color 0.3s, color 0.3s;
-}
-
 .userProfile{
     height: 3.5vw;
     width: 3.5vw;
-    margin: 1vw 1vw 1vw 3vw;
+    margin: 1vw 1vw 1vw 16vw;
+    display: flex;
 }
 
 .userProfile:hover{
@@ -185,6 +161,7 @@ html {
     max-height: 17vw;
     border-radius: 0.5vw;
 }
+
 
 
 .back img{
