@@ -109,6 +109,7 @@ html {
     height: 3.5vw;
     width: 3.5vw;
     margin: 1vw 1vw 1vw 16vw;
+    display: flex;
 }
 
 .userProfile:hover{
