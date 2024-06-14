@@ -10,51 +10,43 @@
 <body>
     <!-- HEADER -->
     <div class="navigationBar">
-        <div> <img src="Element/EllipseHeader.png" class="circleBox"> </div>
+    <div> <img src="Element/EllipseHeader.png" class="circleBox"> </div>
 
-        <div class="headerBox"> 
-            <div> <img src="Element/Logo Navbar.png" class="logoBox"> </div>
+    <div class="headerBox"> 
+        <div> <img src="Element/Logo Navbar.png" class="logoBox"> </div>
 
-            <div class="HomeButton"><button class="Home">Home</button></div> 
-            <div class="line"></div>
-            <div class="Tutor"><p>Tutor</p></div>
-            <div class="line"></div>
-            <div class="Game"><p>Game</p></div>
-            <div class="search">
-                <input type="text" id="search" name="search" class="searchBox">
-                <img src="Element/searchIcon.png" class="searchIcon">
-            </div>
-            <div> <img src="Element/profile Icon.png" class="userProfile" onclick="toggleMenu()"></div>
+        <div class="HomeButton"><button class="Home">Home</button></div> 
+        <div class="line"></div>
+        <div class="Tutor"><p>Tutor</p></div>
+        <div class="line"></div>
+        <div class="schedule"><p>Schedule</p></div>
+        <div> <img src="Element/profile Icon.png" class="userProfile" onclick="toggleMenu()"></div>
+    </div>
+</div>
+
+<div class="sub-menu-wrap" id="subMenu">
+    <div class="dropMenu">
+        <div>
+            <div class="dropText"><p>View Account</p></div>
+            <div class="lineD"></div>
+        </div>
+        <div>
+            <div class="dropText"><p>Switch User</p></div>
+            <div class="lineD"></div>
+        </div>
+        <div>
+            <div class="dropText"><p>Sign Out</p></div>
         </div>
     </div>
+</div>
 
-    <div class="sub-menu-wrap" id="subMenu">
-        <div class="dropMenu">
-            <div>
-                <div class="dropText"><p>View Account</p></div>
-                <div class="lineD"></div>
-            </div>
-            <div>
-                <div class="dropText"><p>Chat</p></div>
-                <div class="lineD"></div>
-            </div>
-            <div>
-                <div class="dropText"><p>Switch User</p></div>
-                <div class="lineD"></div>
-            </div>
-            <div>
-                <div class="dropText"><p>Sign Out</p></div>
-            </div>
-        </div>
-    </div>
+<script>
+    let subMenu = document.getElementById("subMenu");
 
-    <script>
-        let subMenu = document.getElementById("subMenu");
-
-        function toggleMenu(){
-            subMenu.classList.toggle("open-menu")
-        }
-    </script>
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu")
+    }
+</script>
     <!-- ----------------------------- -->
 
     <div class="title"><p>Pick Your Tutor</p></div>
